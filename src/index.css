@@ -6,3 +6,8 @@
   --third-dark-color: #76ABAE;
   --dark-text-color: #EEEEEE;
 }
+
+body{
+  background-color: var(--first-dark-color);
+  color: var(--dark-text-color);
+}
