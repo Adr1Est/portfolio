@@ -3,8 +3,9 @@
 :root{
   --first-dark: #030712;
   --second-dark: #31363F;
-  --third-dark: #76ABAE;
-  --dark-text: #EEEEEE;
+  --third-dark: #EEEFA8;
+  --dark-text: #DDD92A;
+  --white: #FAFDF6;
 }
 
 body{
