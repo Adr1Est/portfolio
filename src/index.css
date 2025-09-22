@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 :root{
-  --first-dark-color: #222831;
-  --second-dark-color: #31363F;
-  --third-dark-color: #76ABAE;
-  --dark-text-color: #EEEEEE;
+  --first-dark: #222831;
+  --second-dark: #31363F;
+  --third-dark: #76ABAE;
+  --dark-text: #EEEEEE;
 }
 
 body{
-  background-color: var(--first-dark-color);
-  color: var(--dark-text-color);
+  background-color: var(--first-dark);
+  color: var(--dark-text);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
