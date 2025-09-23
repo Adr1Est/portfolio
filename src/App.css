@@ -1,10 +1,8 @@
 .main-container{
   background-color: var(--second-dark);
-  box-shadow: 0px 0px 30px 8px var(--third-dark);
-  -webkit-box-shadow: 0px 0px 30px 8px var(--third-dark);
-  -moz-box-shadow: 0px 0px 30px 8px var(--third-dark);
+  box-shadow: var(--details1) 0px 20px 30px -10px;
 }
 
 .photo-box{
-  border: 3px solid var(--third-dark);
+  border: 3px solid var(--white);
 }

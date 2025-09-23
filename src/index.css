@@ -3,14 +3,14 @@
 :root{
   --first-dark: #030712;
   --second-dark: #31363F;
-  --third-dark: #EEEFA8;
-  --dark-text: #DDD92A;
+  --third-dark: #FE2156;
+  --details1: #04FFE4;
   --white: #FAFDF6;
 }
 
 body{
   background-color: var(--first-dark);
-  color: var(--dark-text);
+  color: var(--white);
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
