@@ -1,18 +1,3 @@
 .main-container{
   border: 2px solid var(--details1);
 }
-
-
-.stack-container {
-  scrollbar-width: thin;
-  scrollbar-color: var(--third-dark) var(--first-dark);
-  scrollbar-gutter: auto;
-}
-
-.toolIcon{
-  filter: grayscale(100%);
-
-  &&:hover{
-    filter: none;
-  }
-}
