@@ -26,6 +26,7 @@ function App() {
           <Me/>
           <hr className='mt-3 mb-3 rounded-2xl separator'/>
           <Stack/>
+          <hr className='mt-3 mb-3 rounded-2xl separator'/>
         </div>
       </>
     )
