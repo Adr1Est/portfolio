@@ -8,7 +8,7 @@ function Stack(){
   return (
     <div className='flex flex-col gap-3 w-full'>
       <p className='text-xl'>Stack</p>
-      <Marquee className='stack-container' pauseOnHover gradient={false}>
+      <Marquee className='stack-container' pauseOnHover autoFill>
         {myStack.map(tool => <img src={`https://go-skill-icons.vercel.app/api/icons?i=${tool}`}alt={`${tool} icon`} className={iconClass} title={tool}/>)}
       </Marquee>
     </div>
