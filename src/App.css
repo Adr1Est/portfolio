@@ -5,3 +5,7 @@
 .username{
   color: var(--details1);
 }
+
+.separator{
+  border: 2px solid var(--details2)
+}

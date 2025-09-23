@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const StartButton = () => {
+const StartButton = ({text, handleClick}) => {
   return (
     <StyledWrapper>
-      <button className="btn-23">
-        <span className="text">Button</span>
-        <span aria-hidden className="marquee">Button</span>
+      <button className="btn-23" onClick={handleClick}>
+        <span className="text">{text}</span>
+        <span aria-hidden className="marquee">{text}</span>
       </button>
     </StyledWrapper>
   );
@@ -25,14 +25,13 @@ const StyledWrapper = styled.div`
   .btn-23 {
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: button;
-    background-color: #000;
-    background-image: none;
-    color: #fff;
+    background-color: #030712;
+    color: #FE2156;
     cursor: pointer;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
       Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
       Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-size: 100%;
+    font-size: 75%;
     font-weight: 900;
     line-height: 1.5;
     margin: 0;

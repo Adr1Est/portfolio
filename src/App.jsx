@@ -6,13 +6,17 @@ import Typewriter from './components/Typewriter.jsx'
 import StartButton from './components/startButton.jsx'
 
 function App() {
-  const [isPressed, setIsPressed] = useState(true)
+  const [isPressed, setIsPressed] = useState(false)
 
-  if(isPressed){
+  const handleClick = () => {
+    setIsPressed(true)
+  }
+
+  if(!isPressed){
     return (
-      <div className='flex flex-col gap-1 justify-center items-center'>
+      <div className='flex flex-col gap-3 justify-center items-center'>
         <p className='text-4xl flex'>Welcome to <span className='username ms-2 me-2'><Typewriter text="Adr1Est's" speed={100}/></span> portfolio</p>
-        <StartButton />
+        <StartButton text="Dive in" handleClick={handleClick}/>
       </div>
     )
   }else{
@@ -20,7 +24,7 @@ function App() {
       <>
         <div className='flex flex-col gap-1 rounded-2xl p-3 shadow-sm  main-container'>
           <Me/>
-          <hr className='mt-3 mb-3'/>
+          <hr className='mt-3 mb-3 rounded-2xl separator'/>
           <Stack/>
         </div>
       </>
