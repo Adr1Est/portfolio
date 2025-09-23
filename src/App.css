@@ -1,3 +1,7 @@
 .main-container{
   border: 2px solid var(--details1);
 }
+
+.username{
+  color: var(--details1);
+}
