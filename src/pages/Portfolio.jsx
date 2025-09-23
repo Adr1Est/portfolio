@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Me from '../components/Me'
 import Stack from '../components/Stack'
 import Loader from '../components/Loader'
-import * as motion from 'motion/react-client'
+import { motion } from "motion/react"
 
 function Portfolio(){
   const [isLoaded, setIsLoaded] = useState()
