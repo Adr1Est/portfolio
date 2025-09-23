@@ -1,4 +1,5 @@
 import './Stack.css'
+import Marquee from 'react-fast-marquee'
 
 function Stack(){
   const iconClass = `toolIcon transition-all duration-200`
@@ -6,7 +7,7 @@ function Stack(){
   return (
     <div className='flex flex-col gap-3'>
       <p className='text-xl'>Stack</p>
-      <div className='flex flex-row gap-3 max-w-150 overflow-y-auto p-2 stack-container'>
+      <Marquee className='flex flex-row gap-3 max-w-150 overflow-y-auto p-2 stack-container' pauseOnHover>
         <img src="https://go-skill-icons.vercel.app/api/icons?i=html" alt="html icon" className={iconClass}/>
         <img src="https://go-skill-icons.vercel.app/api/icons?i=css" alt="css icon" className={iconClass}/>
         <img src="https://go-skill-icons.vercel.app/api/icons?i=javascript" alt="javascript icon" className={iconClass}/>
@@ -27,7 +28,7 @@ function Stack(){
         <img src="https://go-skill-icons.vercel.app/api/icons?i=vercel" alt="vercel icon" className={iconClass}/>
         <img src="https://go-skill-icons.vercel.app/api/icons?i=render" alt="render icon" className={iconClass}/>
         <img src="https://go-skill-icons.vercel.app/api/icons?i=docker" alt="docker icon" className={iconClass}/>
-      </div>
+      </Marquee>
     </div>
   )
 }
