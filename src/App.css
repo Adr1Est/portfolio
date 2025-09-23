@@ -1,5 +1,6 @@
 .main-container{
   border: 2px solid var(--details1);
+  overflow: hidden;
 }
 
 .username{

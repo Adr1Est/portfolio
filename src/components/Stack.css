@@ -1,3 +1,8 @@
+.stack-container{
+  width: 100vw !important; 
+  overflow: hidden !important;
+}
+
 .toolIcon{
   filter: grayscale(100%);
   margin-right: 10px;
