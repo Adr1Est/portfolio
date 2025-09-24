@@ -1,7 +1,6 @@
 .projects-container{
   scrollbar-width: thin;
   scrollbar-color: var(--details2) var(--first-dark);
-  scrollbar-gutter: ;
 }
 
 .project-card{
