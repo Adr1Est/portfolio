@@ -12,6 +12,17 @@
   }
 }
 
+.portfolioButtons{
+  width: 110px;
+  border: 2px solid var(--white);
+
+  &&:hover{
+    color: var(--details2);
+    border: 2px solid var(--details1);
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 768px){
   .stack-container{
     width: 90vw !important;
