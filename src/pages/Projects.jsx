@@ -11,13 +11,13 @@ function Projects(){
 
   return (
     <>
-      <button className='backIcon' onClick={() => navigate('/portfolio')}>
+      <button className='flex w-full backIcon' onClick={() => navigate('/portfolio')}>
         <ArrowBigLeft/>
       </button>
       <motion.div 
-        className="flex flex-row gap-3 w-full overflow-x-auto overflow-y-hidden projects-container"
+        className="flex flex-col md:flex-row gap-3 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-auto projects-container"
         initial={{ height: 0 }}
-        animate={{ height: 310 }}
+        animate={{ height: 300 }}
         transition={{
           duration: 0.7,
           scale: { type: "tween", visualDuration: 0.7, bounce: 0.4 },
