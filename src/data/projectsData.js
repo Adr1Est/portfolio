@@ -1,5 +1,6 @@
 const projectsData = [
   {
+    id: 1,
     name: 'AstroRadar',
     repo: 'https://github.com/Sofiaivars/AstroRadar',
     url: 'https://github.com/Sofiaivars/AstroRadar',
@@ -7,6 +8,7 @@ const projectsData = [
     tools: ['react', 'javascript', 'redux', 'css', 'tailwind', 'python', 'flask', 'sqlalchemy',]
   },
   {
+    id: 2,
     name: 'Binary Clock',
     repo: 'https://github.com/Adr1Est/binary-clock-react',
     url: 'https://binary-clock-aes.netlify.app/',
@@ -14,6 +16,7 @@ const projectsData = [
     tools: ['react', 'javascript', 'css', 'tailwind', 'vite']
   },
   {
+    id: 3,
     name: 'Binary Clock',
     repo: 'https://github.com/Adr1Est/tic-tac-toe-react',
     url: 'https://tictactoe-aes.netlify.app/',

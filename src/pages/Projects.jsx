@@ -24,7 +24,7 @@ function Projects(){
         }}
       >
         {projectsData.map((project) => (
-          <Tilt tiltReverse={true}>
+          <Tilt tiltReverse={true} key={project.id}>
             <ProjectCard project={project}/>
           </Tilt>)
         )}
