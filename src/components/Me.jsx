@@ -1,8 +1,10 @@
 import './Me.css'
 import me from '../assets/processed_image.png'
-import { Github, Linkedin } from 'lucide-react'
+import { FileUser, Github, Linkedin } from 'lucide-react'
+import { useNavigate } from 'react-router'
 
 function Me(){
+  const navigate = useNavigate()
   const iconStyles = {
     size: 20,
     class: "social-icons"
@@ -17,12 +19,15 @@ function Me(){
         <p className='text-2xl'>Adrián Estévez Salamanca</p>
         <p className='text-xl'>Full Stack Developer</p>
         <div className='flex flex-row gap-1 mt-1'>
-          <a href="https://github.com/Adr1Est" target="_blank" rel="noopener noreferrer">
-            <Github size={iconStyles.size} className={iconStyles.class}/>
+          <a href="https://github.com/Adr1Est" target="_blank" rel="noopener noreferrer" title="github">
+            <Github size={iconStyles.size} className={iconStyles.class} title="github"/>
           </a>
-          <a href="https://www.linkedin.com/in/adrianestevezsalamanca/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/adrianestevezsalamanca/" target="_blank" rel="noopener noreferrer" title='linkedin'>
             <Linkedin size={iconStyles.size} className={iconStyles.class}/>
           </a>
+          <button title="cv" onClick={() => navigate('/portfolio/cv')}>
+            <FileUser size={iconStyles.size} className={iconStyles.class}/>
+          </button>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 :root{
   --first-dark: #030712;
-  --second-dark: #31363F;
+  --second-dark: #36363633;
   --details1: #04FFE4;
   --details2: #FE2156;
   --white: #FAFDF6;
@@ -16,4 +16,10 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.backIcon{
+  color: var(--details2);
+  z-index: 5;
+  cursor: pointer;
 }

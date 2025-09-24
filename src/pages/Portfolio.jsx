@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import Me from '../components/Me'
-import Stack from '../components/Stack'
+import StackAndButtons from '../components/StackAndButtons'
 import Loader from '../components/Loader'
 import { motion } from "motion/react"
+import { Outlet } from 'react-router'
 
 function Portfolio(){
   const [isLoaded, setIsLoaded] = useState()
@@ -34,8 +35,7 @@ function Portfolio(){
     >
       <Me/>
       <hr className='mt-3 mb-3 rounded-2xl separator'/>
-      <Stack/>
-      <hr className='mt-3 mb-3 rounded-2xl separator'/>
+      <Outlet/>
     </motion.div>
   )
 }
