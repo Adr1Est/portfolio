@@ -11,3 +11,10 @@
     filter: none;
   }
 }
+
+@media (max-width: 768px){
+  .stack-container{
+    width: 90vw !important;
+    overflow: hidden !important;
+  }
+}
