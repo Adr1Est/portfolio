@@ -1,0 +1,15 @@
+.project-card{
+  overflow: hidden;
+  background-color: var(--second-dark);
+}
+
+.projectTools{
+  width: 30px;
+  margin-right: 3px;
+}
+
+.repoLink{
+  &&:hover{
+    color: var(--details2)
+  }
+}
