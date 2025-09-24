@@ -1,7 +1,7 @@
 function AboutMe(){
   return (
     <div>
-
+      WIP
     </div>
   )
 }
