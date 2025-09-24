@@ -4,6 +4,8 @@ import Welcome from './pages/Welcome'
 import Portfolio from './pages/Portfolio'
 import Curriculum from './pages/Curriculum'
 import StackAndButtons from './components/StackAndButtons'
+import Projects from './pages/Projects'
+import AboutMe from './pages/AboutMe'
 
 const router = createBrowserRouter([
   {
@@ -20,12 +22,10 @@ const router = createBrowserRouter([
         children: [
           { index: true, Component: StackAndButtons },
           { path: "cv", Component: Curriculum },
+          { path: "projects", Component: Projects },
+          { path: "aboutme", Component: AboutMe },
         ]
       },
-      {
-        path:"/cv",
-        Component: Curriculum
-      }
     ]
   }
 ])
