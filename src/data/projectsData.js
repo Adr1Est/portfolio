@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     id: 3,
-    name: 'Binary Clock',
+    name: 'Tic Tac Toe',
     repo: 'https://github.com/Adr1Est/tic-tac-toe-react',
     url: 'https://tictactoe-aes.netlify.app/',
     img: '/tictactoe-screen.png',
