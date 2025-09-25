@@ -15,7 +15,7 @@ function Projects(){
         <ArrowBigLeft/>
       </button>
       <motion.div 
-        className="flex flex-col md:flex-row gap-3 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-auto projects-container"
+        className="flex flex-col md:flex-row gap-3 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden projects-container"
         initial={{ height: 0 }}
         animate={{ height: 300 }}
         transition={{
