@@ -8,7 +8,7 @@ function Curriculum(){
 
   return(
     <motion.div 
-      className="flex items-center justify-center w-full m-5 rounded-b-2xl overflow-hidden relative"
+      className="w-full m-5 md:m-0 rounded-b-2xl overflow-hidden relative"
       initial={{ height: 0 }}
       animate={{ height: 500 }}
       transition={{
@@ -18,7 +18,7 @@ function Curriculum(){
     >
       <button className="absolute left-5 top-3 backIcon" onClick={() => navigate("/portfolio")}>
         <ArrowBigLeft/>
-      </button>
+      </button> 
       <iframe 
         src="https://drive.google.com/file/d/1ZIeBjvWhEdwQkSjy-QbJRN7g91RHyGPu/preview" 
         width="100%"
