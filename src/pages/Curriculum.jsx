@@ -8,7 +8,7 @@ function Curriculum(){
 
   return(
     <motion.div 
-      className="w-full rounded-b-2xl overflow-hidden relative"
+      className="flex items-center justify-center w-full m-5 rounded-b-2xl overflow-hidden relative"
       initial={{ height: 0 }}
       animate={{ height: 500 }}
       transition={{
