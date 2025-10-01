@@ -7,8 +7,8 @@ function Welcome(){
 
   return(
     <div className='flex flex-col gap-3 justify-center items-center'>
-      <p className='text-4xl flex flex-col md:flex-row text-center'>Welcome to <span className='username ms-2 me-2'><Typewriter text="Adr1Est's" speed={100}/></span> portfolio</p>
-      <StartButton text="Dive in" handleClick={() => navigate("/portfolio")}/>
+      <p className='text-4xl flex flex-col md:flex-row text-center'>Bienvenido al portfolio de <span className='username ms-2 me-2'><Typewriter text="Adr1Est" speed={100}/></span></p>
+      <StartButton text="Ver" handleClick={() => navigate("/portfolio")}/>
     </div>
   )
 }
