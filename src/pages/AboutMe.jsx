@@ -1,8 +1,10 @@
+import { motion } from "motion/react"
+
 function AboutMe(){
   return (
-    <div>
+    <motion.div>
       WIP
-    </div>
+    </motion.div>
   )
 }
 
