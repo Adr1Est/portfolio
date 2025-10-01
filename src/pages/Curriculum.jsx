@@ -1,10 +1,8 @@
-import { ArrowBigLeft } from "lucide-react"
 import { motion } from "motion/react"
 import './Curriculum.css'
-import { useNavigate } from "react-router"
+import BackButton from "../components/BackButton"
 
 function Curriculum(){
-  const navigate = useNavigate()
 
   return(
     <motion.div 
@@ -16,9 +14,7 @@ function Curriculum(){
         scale: { type: "tween", visualDuration: 0.7, bounce: 0.4 },
       }}
     >
-      <button className="absolute left-5 top-3 backIcon" onClick={() => navigate("/portfolio")}>
-        <ArrowBigLeft/>
-      </button> 
+      <BackButton to={'/portfolio'} styles={"absolute left-5 top-3 backIcon"}/>
       <iframe 
         src="https://drive.google.com/file/d/1ZIeBjvWhEdwQkSjy-QbJRN7g91RHyGPu/preview" 
         width="100%"

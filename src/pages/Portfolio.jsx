@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Me from '../components/Me'
-import StackAndButtons from '../components/StackAndButtons'
 import Loader from '../components/Loader'
 import { motion } from "motion/react"
 import { Outlet } from 'react-router'

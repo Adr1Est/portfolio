@@ -2,18 +2,14 @@ import './Projects.css'
 import { projectsData } from '../data/projectsData'
 import Tilt from 'react-parallax-tilt'
 import ProjectCard from '../components/ProjectCard'
-import { ArrowBigLeft } from 'lucide-react'
-import { useNavigate } from 'react-router'
 import { motion } from "motion/react"
+import BackButton from '../components/BackButton'
 
 function Projects(){
-  const navigate = useNavigate()
 
   return (
     <>
-      <button className='flex w-full backIcon' onClick={() => navigate('/portfolio')}>
-        <ArrowBigLeft/>
-      </button>
+      <BackButton to={"/portfolio"} styles={"flex w-full backIcon"}/>
       <motion.div 
         className="flex flex-col md:flex-row gap-3 m-7 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden projects-container"
         initial={{ height: 0 }}
