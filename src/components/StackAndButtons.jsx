@@ -27,8 +27,8 @@ function StackAndButtons(){
         </div>
         <hr className='mt-3 mb-3 rounded-2xl separator'/>
         <div className='flex flex-row gap-3 justify-center items-center'>
-          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/projects")}>Projects</button>
-          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/aboutme")}>About me</button>
+          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/projects")}>Proyectos</button>
+          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/aboutme")}>Sobre mí</button>
         </div>
       </motion.div>
     </>
