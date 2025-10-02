@@ -4,7 +4,7 @@ Te invito a echar un vistazo a mi portfolio digital. En él encontrarás las her
 Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso como desarrollador.
 
 ## 🔧 Herramientas del proyecto
-![Project Tools](https://go-skill-icons.vercel.app/api/icons?i=vite,react,js,css,nodejs,npm,tailwind,framer,git,github)
+![Project Tools](https://go-skill-icons.vercel.app/api/icons?i=vite,react,typescript,css,nodejs,npm,tailwind,framer,git,github)
 
 ### Otras dependencias
 - **React router**: manejo de rutas en React.
