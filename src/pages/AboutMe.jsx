@@ -8,7 +8,7 @@ function AboutMe(){
   const age = getAge()
   return (
     <>
-      <BackButton to={'/portfolio'} styles={'backIcon'} />
+      <BackButton to={'/portfolio'} styles={'self-start backIcon'} />
       <motion.div 
         className="flex flex-row p-1 w-full"
         initial={{ height: 0 }}

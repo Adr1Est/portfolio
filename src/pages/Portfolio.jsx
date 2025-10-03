@@ -30,10 +30,10 @@ function Portfolio(){
         duration: 0.4,
         scale: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
       }}
-      className='flex flex-col gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 main-container'
+      className='flex flex-col justify-center items-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 main-container'
     >
       <Me/>
-      <hr className='mt-3 mb-3 rounded-2xl separator'/>
+      <hr className='w-full mt-3 mb-3 rounded-2xl separator'/>
       <Outlet/>
     </motion.div>
   )
