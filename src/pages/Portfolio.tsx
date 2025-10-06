@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 import { Outlet } from 'react-router'
 
 function Portfolio(){
-  const [isLoaded, setIsLoaded] = useState()
+  const [isLoaded, setIsLoaded] = useState(false)
   
   useEffect(() => {
     if(!isLoaded){
