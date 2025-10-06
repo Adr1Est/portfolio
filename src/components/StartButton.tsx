@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-const StartButton = ({text, handleClick}) => {
+interface StartButtonProps {
+  text: string;
+  handleClick: () => void;
+}
+
+const StartButton = ({text, handleClick}: StartButtonProps) => {
   return (
     <StyledWrapper>
       <button className="btn-23" onClick={handleClick}>
