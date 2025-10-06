@@ -21,3 +21,6 @@ Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso
 
 ## 🔄 En desarrollo
 Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y habilidades adquiridas.
+
+## ⚙️ Actualizaciones
+- 2025/10/06 => Migración a TypeScript
