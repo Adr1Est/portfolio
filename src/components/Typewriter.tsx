@@ -1,6 +1,11 @@
 import { useTypewriter } from "../hooks/useTypewriter";
 
-function Typewriter({text, speed}){
+interface TypewriterProps {
+  text: string;
+  speed?: number;
+}
+
+function Typewriter({text, speed}: TypewriterProps){
   const displayText = useTypewriter(text, speed)
 
   return <p>{displayText}</p>

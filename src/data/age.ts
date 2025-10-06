@@ -1,4 +1,4 @@
-export const getAge = () => {
+export const getAge = (): number => {
   const today = new Date();
   const bornDate = new Date("Jul 22, 1998");
 

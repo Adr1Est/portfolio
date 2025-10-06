@@ -1,4 +1,14 @@
-const projectsData = [
+export interface Project {
+  id: number;
+  name: string;
+  repo: string;
+  url: string;
+  img: string;
+  tools: string[];
+}
+type ProjectsArr = Project[]
+
+const projectsData: ProjectsArr = [
   {
     id: 1,
     name: 'AstroRadar',

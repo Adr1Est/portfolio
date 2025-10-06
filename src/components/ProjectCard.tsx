@@ -1,7 +1,12 @@
 import Marquee from 'react-fast-marquee'
 import { Github } from 'lucide-react'
+import { Project } from '../data/projectsData'
 
-function ProjectCard({project}){
+interface ProjectCardProps {
+  project: Project;
+}
+
+function ProjectCard({project}: ProjectCardProps){
   return (
     <div className="flex flex-col gap-1 w-70 h-70 rounded-2xl project-card">
       <a href={project.url} target="_blank" rel="noopener noreferrer">

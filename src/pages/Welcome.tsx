@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router'
-import Typewriter from '../components/Typewriter.jsx'
-import StartButton from '../components/StartButton.jsx'
+import Typewriter from '../components/Typewriter'
+import StartButton from '../components/StartButton'
 
 function Welcome(){
   const navigate = useNavigate()
