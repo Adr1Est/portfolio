@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router'
-import App from './App'
+import App from './App.js'
 import Welcome from './pages/Welcome'
 import Portfolio from './pages/Portfolio'
 import Curriculum from './pages/Curriculum'

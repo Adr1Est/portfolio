@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 function StackAndButtons(){
   const navigate = useNavigate()
   const iconClass = `toolIcon transition-all duration-200`
-  const myStack = ['html', 'css', 'javascript', 'react', 'redux', 'vite', 'tailwind', 'bootstrap', 'python', 'flask', 'sqlalchemy', 'nodejs', 'express', 'api', 'git', 'github', 'netlify', 'vercel', 'render', 'docker']
+  const myStack = ['html', 'css', 'javascript', 'typescript', 'react', 'redux', 'vite', 'tailwind', 'bootstrap', 'python', 'flask', 'sqlalchemy', 'nodejs', 'express', 'api', 'git', 'github', 'netlify', 'vercel', 'render', 'docker']
 
   return (
     <>
