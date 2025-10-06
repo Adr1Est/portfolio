@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-const Loader = ({text}) => {
+interface LoaderProps { text: string }
+
+const Loader = ({text}: LoaderProps) => {
   return (
     <StyledWrapper>
       <p className="loader"><span>{text}</span></p>

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router'
 
 function Me(){
   const navigate = useNavigate()
-  const iconStyles = {
+  const iconStyles: { size: number, class: string } = {
     size: 20,
     class: "social-icons"
   }

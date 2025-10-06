@@ -5,7 +5,7 @@ import BackButton from "../components/BackButton"
 import Tilt from 'react-parallax-tilt'
 
 function AboutMe(){
-  const age = getAge()
+  const age: number = getAge()
   return (
     <>
       <BackButton to={'/portfolio'} styles={'self-start backIcon'} />
