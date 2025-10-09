@@ -16,7 +16,7 @@ function Curriculum(){
     >
       <BackButton to={'/portfolio'} styles={"absolute left-5 top-3 backIcon"}/>
       <iframe 
-        src="https://drive.google.com/file/d/1V7TvM-7IQYpqqsa0glezQV61mwJhlxvL/preview"
+        src="https://drive.google.com/file/d/1pmPY0KDiofozrwkOiGOnf2DAieY0Btju/preview"view?usp=drive_link
         width="100%"
         height="500px"
       ></iframe>
