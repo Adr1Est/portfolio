@@ -1,11 +1,9 @@
 import './AboutMe.css'
 import { motion } from "motion/react"
-import { getAge } from "../data/age"
 import BackButton from "../components/BackButton"
 import Tilt from 'react-parallax-tilt'
 
 function AboutMe(){
-  const age: number = getAge()
   return (
     <>
       <BackButton to={'/portfolio'} styles={'self-start backIcon'} />
@@ -28,13 +26,14 @@ function AboutMe(){
         >
           <div className="flex flex-col gap-1 p-3 w-full aboutme-box">
             <p className="text-justify">
-              Hola, soy Adrián Estévez Salamanca de {age} años y vivo en Madrid, España.
-            </p>
-            <p className="text-justify">
-              Soy <strong>Desarrollador Full Stack</strong> con experiencia en 
-              <strong> React</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Python</strong> y <strong>SQL</strong>. 
-              Me apasiona la <strong>innovación tecnológica</strong> y el <strong>aprendizaje constante</strong>, lo que me impulsa 
-              a estar siempre explorando nuevas herramientas.
+                <strong>Desarrollador Front-end</strong> con más de 2 años de experiencia en <b>React</b>,
+                <strong> TypeScript</strong> y <strong>Node.js</strong>.
+                Actualmente, amplío mis conocimientos en <strong>Python</strong>, <strong>Flask</strong>,
+                <strong> SQL</strong>,
+                <strong> IA</strong> y el uso de <strong>ORMs</strong> para fortalecer mi perfil Full Stack.
+                Apasionado por la <strong>innovación</strong> y el <strong>aprendizaje continuo</strong>, destaco por mi
+                <strong> curiosidad</strong>, <strong>autonomía</strong> y <strong>capacidad de adaptación</strong> a
+                nuevos entornos y tecnologías.
             </p>
           </div>
         </Tilt>

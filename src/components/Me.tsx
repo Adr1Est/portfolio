@@ -17,7 +17,7 @@ function Me(){
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start'>
         <p className='text-2xl'>Adrián Estévez Salamanca</p>
-        <p className='text-xl'>Desarrollador Full Stack</p>
+        <p className='text-xl'>Desarrollador Front-end</p>
         <div className='flex flex-row gap-1 mt-1'>
           <a href="https://github.com/Adr1Est" target="_blank" rel="noopener noreferrer" title="github">
             <Github size={iconStyles.size} className={iconStyles.class} title="github"/>
