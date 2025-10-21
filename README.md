@@ -1,5 +1,5 @@
 # 👨‍💻 Portfolio de Adr1Est 
-Soy Adrián Estévez, desarrollador Full Stack.
+Soy Adrián Estévez, desarrollador Front-end.
 Te invito a echar un vistazo a mi portfolio digital. En él encontrarás las herramientas que utilizo, proyectos, una pestaña con algo de información sobre mí y enlaces a GitHub, LinkedIn y mi CV.
 Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso como desarrollador.
 
@@ -23,4 +23,5 @@ Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso
 Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y habilidades adquiridas.
 
 ## ⚙️ Actualizaciones
+- 2025/10/21 => Actualizar información personal
 - 2025/10/06 => Migración a TypeScript
