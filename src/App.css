@@ -1,6 +1,5 @@
 .main-container{
   background: rgba(255, 255, 255, 0.07);
-  border-radius: 16px;
   backdrop-filter: blur(10.9px);
   -webkit-backdrop-filter: blur(10.9px);
   border: 1px solid rgba(255, 255, 255, 0.42);
