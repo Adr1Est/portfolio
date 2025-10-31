@@ -2,20 +2,3 @@
   scrollbar-width: thin;
   scrollbar-color: var(--details2) var(--first-dark);
 }
-
-.project-card{
-  overflow: hidden;
-  background-color: var(--second-dark);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.projectTools{
-  width: 30px;
-  margin-right: 3px;
-}
-
-.repoLink{
-  &&:hover{
-    color: var(--details2)
-  }
-}
