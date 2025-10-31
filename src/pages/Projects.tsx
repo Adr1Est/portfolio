@@ -6,6 +6,7 @@ import { motion } from "motion/react"
 import BackButton from '../components/BackButton'
 
 function Projects(){
+  const reverseProjects = [...projectsData].reverse()
 
   return (
     <>
@@ -19,7 +20,7 @@ function Projects(){
           scale: { type: "tween", visualDuration: 0.7, bounce: 0.4 },
         }}
       >
-        {projectsData.map((project) => (
+        {reverseProjects.map((project) => (
           <Tilt tiltReverse={true} key={project.id}>
             <ProjectCard project={project}/>
           </Tilt>)
