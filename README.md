@@ -30,6 +30,6 @@ Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y h
 
 ## ⚙️ Actualizaciones
 
-- 2025/10/31 => Nuevo tema
+- 2025/10/31 => Nuevo tema y utilización de css modules
 - 2025/10/21 => Actualizar información personal
 - 2025/10/06 => Migración a TypeScript
