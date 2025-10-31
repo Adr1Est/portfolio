@@ -19,10 +19,6 @@ body{
   align-items: center;
 }
 
-.username{
-  color: var(--details1);
-}
-
 .separator{
   border: 1px solid var(--details2)
 }
