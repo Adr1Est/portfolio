@@ -2,11 +2,12 @@ import { useNavigate } from 'react-router'
 import './StackAndButtons.css'
 import Marquee from 'react-fast-marquee'
 import { motion } from "motion/react"
+import { techStack } from '../data/myStack'
 
 function StackAndButtons(){
   const navigate = useNavigate()
   const iconClass: string = `toolIcon transition-all duration-200`
-  const myStack: string[] = ['html', 'css', 'javascript', 'typescript', 'react', 'redux', 'vite', 'tailwind', 'bootstrap', 'python', 'flask', 'sqlalchemy', 'nodejs', 'express', 'api', 'git', 'github', 'netlify', 'vercel', 'render', 'docker']
+  const myStack: string[] = techStack;
 
   return (
     <>
