@@ -33,7 +33,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     height: 6px;
     border-radius: 4px;
-    background-color: #ff828291;
+    background-color: #acd2022d;
     top: 0px;
     filter: blur(10px);
     animation: scan 2s infinite;
@@ -48,7 +48,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     height: 5px;
     border-radius: 4px;
-    background-color: #FE2156;
+    background-color: #ABD202;
     top: 0px;
     animation: scan 2s infinite;
     left: 0;
