@@ -1,4 +1,4 @@
-import './Me.css'
+import styles from './Me.module.css'
 import me from '../assets/processed_image.png'
 import { FileUser, Github, Linkedin } from 'lucide-react'
 import { useNavigate } from 'react-router'
@@ -7,12 +7,12 @@ function Me(){
   const navigate = useNavigate()
   const iconStyles: { size: number, class: string } = {
     size: 20,
-    class: "social-icons"
+    class: styles.socialIcons
   }
   
   return (
     <div className='flex flex-col md:flex-row justify-center items-center gap-3'>
-      <div className='w-30 md:w-50 aspect-square rounded-full overflow-hidden photo-box'>
+      <div className={`w-30 md:w-50 aspect-square rounded-full overflow-hidden ${styles.photoBox}`}>
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start'>

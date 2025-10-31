@@ -1,8 +1,8 @@
-.photo-box{
+.photoBox{
   border: 3px solid var(--white);
 }
 
-.social-icons{
+.socialIcons{
   &&:hover{
     color: var(--details2);
     cursor: pointer
