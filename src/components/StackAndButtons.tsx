@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router'
-import './StackAndButtons.css'
+import styles from './StackAndButtons.module.css'
 import Marquee from 'react-fast-marquee'
 import { motion } from "motion/react"
 import { techStack } from '../data/myStack'
 
 function StackAndButtons(){
   const navigate = useNavigate()
-  const iconClass: string = `toolIcon transition-all duration-200`
+  const iconClass: string = `${styles.toolIcon} transition-all duration-200`
   const myStack: string[] = techStack;
 
   return (
@@ -22,14 +22,14 @@ function StackAndButtons(){
       >
         <div className='flex flex-col gap-3 w-full overflow-hidden'>
           <p className='text-xl'>Stack</p>
-          <Marquee className='stack-container' pauseOnHover autoFill>
+          <Marquee className={styles.stackContainer} pauseOnHover autoFill>
             {myStack.map(tool => <img src={`https://go-skill-icons.vercel.app/api/icons?i=${tool}`}alt={`${tool} icon`} className={iconClass} title={tool}/>)}
           </Marquee>
         </div>
         <hr className='mt-3 mb-3 rounded-2xl separator'/>
         <div className='flex flex-row gap-3 justify-center items-center'>
-          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/projects")}>Proyectos</button>
-          <button className='rounded-full p-2 portfolioButtons' onClick={() => navigate("/portfolio/aboutme")}>Sobre mí</button>
+          <button className={`rounded-full p-2 ${styles.portfolioButtons}`} onClick={() => navigate("/portfolio/projects")}>Proyectos</button>
+          <button className={`rounded-full p-2 ${styles.portfolioButtons}`} onClick={() => navigate("/portfolio/aboutme")}>Sobre mí</button>
         </div>
       </motion.div>
     </>

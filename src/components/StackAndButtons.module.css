@@ -1,4 +1,4 @@
-.stack-container{
+.stackContainer{
   width: 100vw !important; 
   overflow: hidden !important;
 }
@@ -17,7 +17,7 @@
   border: 2px solid var(--white);
 
   &&:hover{
-    color: var(--details2);
+    color: var(--details1);
     border: 2px solid var(--details1);
     cursor: pointer;
   }
