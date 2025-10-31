@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt'
 function AboutMe(){
   return (
     <>
-      <BackButton to={'/portfolio'} styles={'self-start backIcon'} />
+      <BackButton to={'/portfolio'} stylesFromParent={'self-start backIcon'} />
       <motion.div 
         className="flex flex-row p-1 w-full"
         initial={{ height: 0 }}

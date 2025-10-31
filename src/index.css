@@ -18,9 +18,3 @@ body{
   justify-content: center;
   align-items: center;
 }
-
-.backIcon{
-  color: var(--details2);
-  z-index: 5;
-  cursor: pointer;
-}

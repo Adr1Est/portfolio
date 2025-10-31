@@ -14,7 +14,7 @@ function Curriculum(){
         scale: { type: "tween", visualDuration: 0.7, bounce: 0.4 },
       }}
     >
-      <BackButton to={'/portfolio'} styles={"absolute left-5 top-3 backIcon"}/>
+      <BackButton to={'/portfolio'} stylesFromParent={"absolute left-5 top-3 backIcon"}/>
       <iframe 
         src="https://drive.google.com/file/d/1D3EBFQ6abq6PsZhmCNN6xlphH1WkPkOa/preview"
         width="100%"
