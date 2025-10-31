@@ -20,7 +20,7 @@ function Me(){
         <p className='text-xl'>Desarrollador Front-end</p>
         <div className='flex flex-row gap-1 mt-1'>
           <a href="https://github.com/Adr1Est" target="_blank" rel="noopener noreferrer" title="github">
-            <Github size={iconStyles.size} className={iconStyles.class} title="github"/>
+            <Github size={iconStyles.size} className={iconStyles.class}/>
           </a>
           <a href="https://www.linkedin.com/in/adrianestevezsalamanca/" target="_blank" rel="noopener noreferrer" title='linkedin'>
             <Linkedin size={iconStyles.size} className={iconStyles.class}/>
