@@ -1,4 +1,4 @@
-.projects-container{
+.projectsContainer{
   scrollbar-width: thin;
   scrollbar-color: var(--details2) var(--first-dark);
 }

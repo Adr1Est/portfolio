@@ -1,4 +1,4 @@
-import './Projects.css'
+import styles from './Projects.module.css'
 import { projectsData } from '../data/projectsData'
 import Tilt from 'react-parallax-tilt'
 import ProjectCard from '../components/ProjectCard'
@@ -11,7 +11,7 @@ function Projects(){
     <>
       <BackButton to={"/portfolio"} stylesFromParent={"flex w-full"}/>
       <motion.div 
-        className="flex flex-col md:flex-row items-center gap-3 m-7 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden projects-container"
+        className={`flex flex-col md:flex-row items-center gap-3 m-7 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden ${styles.projectsContainer}`}
         initial={{ height: 0 }}
         animate={{ height: 300 }}
         transition={{
