@@ -1,4 +1,4 @@
-import './AboutMe.css'
+import styles from './AboutMe.module.css'
 import { motion } from "motion/react"
 import BackButton from "../components/BackButton"
 import Tilt from 'react-parallax-tilt'
@@ -24,7 +24,7 @@ function AboutMe(){
           glarePosition="all"
           glareBorderRadius="15px"
         >
-          <div className="flex flex-col gap-1 p-3 w-full aboutme-box">
+          <div className={`flex flex-col gap-1 p-3 w-full ${styles.aboutmeBox}`}>
             <p className="text-justify">
                 <strong>Desarrollador Front-end</strong> con más de 2 años de experiencia en <b>React</b>,
                 <strong> TypeScript</strong> y <strong>Node.js</strong>.
