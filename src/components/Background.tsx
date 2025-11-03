@@ -12,30 +12,29 @@ function Background() {
 
       <ShootingStars
         starColor="#F2F2F2"
-        trailColor="#F2F2F2"
+        trailColor="#D10000"
         minSpeed={15}
-        maxSpeed={35}
-        minDelay={1200}
+        maxSpeed={33}
+        minDelay={2000}
         maxDelay={4200}
       />
-
       <ShootingStars
-        starColor="#04FFE4"
-        trailColor="#04FFE4"
+        starColor="#F2F2F2"
+        trailColor="#D10000"
         minSpeed={15}
-        maxSpeed={35}
+        maxSpeed={33}
+        minDelay={2500}
+        maxDelay={4200}
+      />
+      <ShootingStars
+        starColor="#F2F2F2"
+        trailColor="#D10000"
+        minSpeed={15}
+        maxSpeed={33}
         minDelay={3000}
         maxDelay={4200}
       />
-
-      <ShootingStars
-        starColor="#D10000"
-        trailColor="#D10000"
-        minSpeed={15}
-        maxSpeed={35}
-        minDelay={5000}
-        maxDelay={6000}
-      />
+        
     </div>
   )
 }
