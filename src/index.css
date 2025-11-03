@@ -4,8 +4,8 @@
 :root{
   --first-dark: #030712;
   --second-dark: #36363633;
-  --details1: #04FFE4;
-  --details2: #ABD202;
+  --details1: #ABD202;
+  --details2: #c76f0a;
   --white: #F2F2F2;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
