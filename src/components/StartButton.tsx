@@ -31,7 +31,7 @@ const StyledWrapper = styled.div`
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: button;
     background-color: #030712;
-    color: #ABD202;
+    color: #c76f0a;
     cursor: pointer;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
       Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,

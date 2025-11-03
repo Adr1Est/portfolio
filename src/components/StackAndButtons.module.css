@@ -17,8 +17,8 @@
   border: 2px solid var(--white);
 
   &&:hover{
-    color: var(--details1);
-    border: 2px solid var(--details1);
+    color: var(--details2);
+    border: 2px solid var(--details2);
     cursor: pointer;
   }
 }

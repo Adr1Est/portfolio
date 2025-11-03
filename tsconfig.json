@@ -17,7 +17,16 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "ignoreDeprecations": "6.0",
   },
   "include": ["src"],
-  "references": [{"path": "./tsconfig.node.json"}]
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
 }
