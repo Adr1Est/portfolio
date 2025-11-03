@@ -1,0 +1,9 @@
+.mainBackground{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: var(--first-dark);
+  z-index: -1;
+}
