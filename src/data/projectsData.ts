@@ -39,7 +39,7 @@ const projectsData: ProjectsArr = [
     repo: 'https://github.com/Adr1Est/daily-insight',
     url: 'https://dailybug.adrianestevezs.dev/',
     img: '/dailybug-screen.png',
-    tools: ['nextjs', 'typescript', 'css', 'tailwind', 'prisma']
+    tools: ['nextjs', 'typescript', 'css', 'tailwind', 'prisma', 'supabase']
   },
 ];
 
