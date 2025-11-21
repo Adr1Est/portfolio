@@ -33,6 +33,14 @@ const projectsData: ProjectsArr = [
     img: '/astroradar-screen.png',
     tools: ['react', 'javascript', 'redux', 'css', 'tailwind', 'python', 'flask', 'sqlalchemy',]
   },
+  {
+    id: 4,
+    name: 'Daily Bug',
+    repo: 'https://github.com/Adr1Est/daily-insight',
+    url: 'https://dailybug.adrianestevezs.dev/',
+    img: '/dailybug-screen.png',
+    tools: ['nextjs', 'typescript', 'css', 'tailwind', 'prisma']
+  },
 ];
 
 export { projectsData };
