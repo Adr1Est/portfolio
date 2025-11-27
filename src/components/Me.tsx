@@ -1,5 +1,5 @@
-import styles from './Me.module.css'
-import me from '../assets/processed_image.png'
+import styles from '@components/Me.module.css'
+import me from '@/assets/processed_image.png'
 import { FileUser, Github, Linkedin } from 'lucide-react'
 import { useNavigate } from 'react-router'
 

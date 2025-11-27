@@ -1,4 +1,4 @@
-import styles from './BackButton.module.css'
+import styles from '@components/BackButton.module.css'
 import { ArrowBigLeft } from "lucide-react"
 import { useNavigate } from "react-router"
 

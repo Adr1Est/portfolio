@@ -1,7 +1,7 @@
-import styles from './ProjectCard.module.css'
+import styles from '@components/ProjectCard.module.css'
 import Marquee from 'react-fast-marquee'
 import { Github } from 'lucide-react'
-import { Project } from '../data/projectsData'
+import { Project } from '@/data/projectsData'
 
 interface ProjectCardProps {
   project: Project;

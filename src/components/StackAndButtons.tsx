@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router'
-import styles from './StackAndButtons.module.css'
+import styles from '@components/StackAndButtons.module.css'
 import Marquee from 'react-fast-marquee'
 import { motion } from "motion/react"
-import { techStack } from '../data/myStack'
+import { techStack } from '@/data/myStack'
 
 function StackAndButtons(){
   const navigate = useNavigate()
