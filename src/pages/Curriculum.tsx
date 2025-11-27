@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
-import styles from './Curriculum.module.css'
-import BackButton from "../components/BackButton"
+import styles from '@pages/Curriculum.module.css'
+import BackButton from "@components/BackButton"
 
 function Curriculum(){
 

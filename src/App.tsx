@@ -1,6 +1,6 @@
-import styles from './App.css'
+import styles from '@/App.module.css'
 import { Outlet } from 'react-router'
-import Background from './components/Background'
+import Background from '@components/Background'
 
 function App() {
   return(

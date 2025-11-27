@@ -1,7 +1,7 @@
-import styles from './Welcome.module.css'
+import styles from '@pages/Welcome.module.css'
 import { useNavigate } from 'react-router'
-import Typewriter from '../components/Typewriter'
-import StartButton from '../components/StartButton'
+import Typewriter from '@components/Typewriter'
+import StartButton from '@components/StartButton'
 
 function Welcome(){
   const navigate = useNavigate()

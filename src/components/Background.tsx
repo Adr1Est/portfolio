@@ -1,5 +1,5 @@
-import styles from './Background.module.css'
-import { ShootingStars } from '@/components/ui/shadcn-io/shooting-stars'
+import styles from '@components/Background.module.css'
+import { ShootingStars } from '@components/ui/shadcn-io/shooting-stars'
 
 function Background() {
   return(
