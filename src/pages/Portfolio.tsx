@@ -1,7 +1,7 @@
-import styles from './Portfolio.module.css'
+import styles from '@pages/Portfolio.module.css'
 import { useEffect, useState } from 'react'
-import Me from '../components/Me'
-import Loader from '../components/Loader'
+import Me from '@components/Me'
+import Loader from '@components/Loader'
 import { motion } from "motion/react"
 import { Outlet } from 'react-router'
 

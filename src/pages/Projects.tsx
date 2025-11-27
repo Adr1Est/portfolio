@@ -1,9 +1,9 @@
-import styles from './Projects.module.css'
-import { projectsData } from '../data/projectsData'
+import styles from '@pages/Projects.module.css'
+import { projectsData } from '@/data/projectsData'
 import Tilt from 'react-parallax-tilt'
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from '@components/ProjectCard'
 import { motion } from "motion/react"
-import BackButton from '../components/BackButton'
+import BackButton from '@components/BackButton'
 
 function Projects(){
   const reverseProjects = [...projectsData].reverse()

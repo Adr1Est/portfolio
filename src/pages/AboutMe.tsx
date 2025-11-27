@@ -1,6 +1,6 @@
-import styles from './AboutMe.module.css'
+import styles from '@pages/AboutMe.module.css'
 import { motion } from "motion/react"
-import BackButton from "../components/BackButton"
+import BackButton from "@components/BackButton"
 import Tilt from 'react-parallax-tilt'
 
 function AboutMe(){
