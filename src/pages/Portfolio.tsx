@@ -4,6 +4,7 @@ import Me from '@components/Me'
 import Loader from '@components/Loader'
 import { motion } from "motion/react"
 import { Outlet } from 'react-router'
+import ThemeToggle from '@/components/ThemeToggle'
 
 function Portfolio(){
   const [isLoaded, setIsLoaded] = useState(false)
@@ -31,8 +32,9 @@ function Portfolio(){
         duration: 0.4,
         scale: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
       }}
-      className={`flex flex-col justify-center items-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 ${styles.mainContainer}`}
+      className={`flex flex-col justify-center items-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 ${styles.mainContainer} relative`}
     >
+      <ThemeToggle/>
       <Me/>
       <hr className='w-full mt-3 mb-3 rounded-2xl separator'/>
       <Outlet/>

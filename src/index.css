@@ -56,6 +56,14 @@ body{
   border: 1px solid var(--details2)
 }
 
+@theme{
+  --color-first-dark: #030712;
+  --color-second-dark: #36363633;
+  --color-details1: #c76f0a;
+  --color-details2: #ABD202;
+  --color-first-light: #F2F2F2;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
