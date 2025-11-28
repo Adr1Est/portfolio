@@ -1,6 +1,0 @@
-.socialIcons{
-  &&:hover{
-    color: var(--details2);
-    cursor: pointer
-  }
-}

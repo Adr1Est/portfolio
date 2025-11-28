@@ -7,7 +7,7 @@ function Me(){
   const navigate = useNavigate()
   const iconStyles: { size: number, class: string } = {
     size: 20,
-    class: styles.socialIcons
+    class: "cursor-pointer hover:text-details2 dark:hover:text-details1"
   }
   
   return (
