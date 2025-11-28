@@ -20,7 +20,7 @@ function ThemeToggle(){
 
   return(
     <button 
-      className={`${styles.themeButton} rounded-full p-2 absolute right-1 top-1 cursor-pointer hover:text-details1`}
+      className={`${styles.themeButton} rounded-full p-2 absolute right-1 top-1 cursor-pointer hover:text-details2 dark:hover:text-details1`}
       onClick={themeSelector}
     >
       {theme === "dark" ? <Sun size={20}/> : <Moon size={20}/>}
