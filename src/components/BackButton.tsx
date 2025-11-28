@@ -7,7 +7,10 @@ interface BackButtonProps { to: string; stylesFromParent: string; }
 function BackButton({to, stylesFromParent}: BackButtonProps){
   const navigate = useNavigate()
   return (
-    <button className={`${stylesFromParent} ${styles.backIcon}`} onClick={() => navigate(to)}>
+    <button 
+      className={`${stylesFromParent} ${styles.backIcon} text-details2 dark:text-details1`} 
+      onClick={() => navigate(to)}
+    >
       <ArrowBigLeft/>
     </button> 
   )
