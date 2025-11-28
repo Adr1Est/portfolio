@@ -17,6 +17,11 @@ function Portfolio(){
     }
   }, [isLoaded])
 
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme") || 'dark';
+    document.documentElement.classList.toggle('dark', storedTheme === 'dark')
+  }, [])
+
   if(!isLoaded){
     return (
       <div className='flex flex-col items-center justify-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3'>

@@ -57,7 +57,7 @@ body{
   --color-second-dark: #36363633;
   --color-details1: #c76f0a;
   --color-details2: #ABD202;
-  --color-first-light: #F2F2F2;
+  --color-dark-text: #F2F2F2;
 }
 
 @theme inline {

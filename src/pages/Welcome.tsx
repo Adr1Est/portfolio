@@ -2,9 +2,15 @@ import styles from '@pages/Welcome.module.css'
 import { useNavigate } from 'react-router'
 import Typewriter from '@components/Typewriter'
 import StartButton from '@components/StartButton'
+import { useState, useEffect } from 'react'
 
 function Welcome(){
   const navigate = useNavigate()
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme") || 'dark';
+    document.documentElement.classList.toggle('dark', storedTheme === 'dark')
+  }, [])
 
   return(
     <div className='flex flex-col gap-3 justify-center items-center'>
