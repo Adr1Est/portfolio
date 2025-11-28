@@ -7,6 +7,7 @@
   --first-dark: #030712;
   --second-dark: #36363633;
   --details1: #ABD202;
+  --details3: #983ab4;
   --details2: #c76f0a;
   --white: #F2F2F2;
   --radius: 0.625rem;
@@ -54,8 +55,8 @@ body{
 @theme{
   --color-first-dark: #030712;
   --color-second-dark: #36363633;
-  --color-details1: #c76f0a;
-  --color-details2: #ABD202;
+  --color-details1: #87D200;
+  --color-details2: #983ab4;
   --color-dark-text: #F2F2F2;
   --color-light-text: #030712;
 }
