@@ -133,6 +133,12 @@ body{
 }
 
 @layer base {
+  ::selection{
+    @apply bg-details2 text-dark-text;
+  }
+  .dark ::selection{
+    @apply bg-details1 text-dark-text;
+  }
   * {
     @apply border-border outline-ring/50;
   }
