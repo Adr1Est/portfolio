@@ -5,7 +5,7 @@ interface LoaderProps { text: string }
 const Loader = ({text}: LoaderProps) => {
   return (
     <StyledWrapper>
-      <p className="loader"><span>{text}</span></p>
+      <p className="loader"><span className='text-light-text dark:text-dark-text'>{text}</span></p>
     </StyledWrapper>
   );
 }
@@ -48,7 +48,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     height: 5px;
     border-radius: 4px;
-    background-color: #c76f0a;
+    background-color: #7c318fa8;
     top: 0px;
     animation: scan 2s infinite;
     left: 0;
