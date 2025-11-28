@@ -24,7 +24,7 @@ function ProjectCard({project}: ProjectCardProps){
         </Marquee>
         <div className='flex flex-row justify-center items-center mt-3'>
           <a href={project.repo} target="_blank" rel="noopener noreferrer">
-            <Github size={20} className={styles.repoLink}/>
+            <Github size={20} className="hover:text-details2 dark:hover:text-details1"/>
           </a>
         </div>
       </div>

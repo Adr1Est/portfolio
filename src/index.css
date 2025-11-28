@@ -1,10 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root{
   --first-dark: #030712;
   --second-dark: #36363633;
   --details1: #ABD202;
+  --details3: #983ab4;
   --details2: #c76f0a;
   --white: #F2F2F2;
   --radius: 0.625rem;
@@ -42,7 +45,6 @@
 }
 
 body{
-  color: var(--white);
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -50,8 +52,13 @@ body{
   align-items: center;
 }
 
-.separator{
-  border: 1px solid var(--details2)
+@theme{
+  --color-first-dark: #030712;
+  --color-second-dark: #36363633;
+  --color-details1: #87D200;
+  --color-details2: #983ab4;
+  --color-dark-text: #F2F2F2;
+  --color-light-text: #030712;
 }
 
 @theme inline {
@@ -127,6 +134,12 @@ body{
 }
 
 @layer base {
+  ::selection{
+    @apply bg-details2 text-dark-text;
+  }
+  .dark ::selection{
+    @apply bg-details1 text-dark-text;
+  }
   * {
     @apply border-border outline-ring/50;
   }

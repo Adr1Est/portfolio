@@ -1,13 +1,20 @@
 import styles from '@components/Background.module.css'
 import { ShootingStars } from '@components/ui/shadcn-io/shooting-stars'
+import { useState, useEffect } from 'react'
 
 function Background() {
+  const [theme, setTheme] = useState('dark')
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme") || 'dark'
+    setTheme(storedTheme)
+  }, [])
   return(
-    <div className={styles.mainBackground}>
+    <div className={`${styles.mainBackground} bg-first-light dark:bg-first-dark`}>
       {/* Background with stars */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.15)_0%,rgba(0,0,0,0)_80%)]" />
-        <div className={`${styles.stars} absolute inset-0` }/>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.1)_0%,rgba(255,255,255,0)_70% dark:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.15)_0%,rgba(0,0,0,0)_80%)]" />
+        <div className={`${theme === 'dark' ? styles.stars_dark : styles.stars} absolute inset-0` }/>
       </div>
 
       <ShootingStars

@@ -14,11 +14,8 @@
 
 .portfolioButtons{
   width: 110px;
-  border: 2px solid var(--white);
 
   &&:hover{
-    color: var(--details2);
-    border: 2px solid var(--details2);
     cursor: pointer;
   }
 }

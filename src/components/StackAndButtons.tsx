@@ -26,10 +26,20 @@ function StackAndButtons(){
             {myStack.map(tool => <img src={`https://go-skill-icons.vercel.app/api/icons?i=${tool}`}alt={`${tool} icon`} className={iconClass} title={tool}/>)}
           </Marquee>
         </div>
-        <hr className='mt-3 mb-3 rounded-2xl separator'/>
+        <hr className='mt-3 mb-3 rounded-2xl border-1 border-details2 dark:border-details1'/>
         <div className='flex flex-row gap-3 justify-center items-center'>
-          <button className={`rounded-full p-2 ${styles.portfolioButtons}`} onClick={() => navigate("/portfolio/projects")}>Proyectos</button>
-          <button className={`rounded-full p-2 ${styles.portfolioButtons}`} onClick={() => navigate("/portfolio/aboutme")}>Sobre mí</button>
+          <button 
+            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            onClick={() => navigate("/portfolio/projects")}
+          >
+            Proyectos
+          </button>
+          <button 
+            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            onClick={() => navigate("/portfolio/aboutme")}
+          >
+            Sobre mí
+          </button>
         </div>
       </motion.div>
     </>

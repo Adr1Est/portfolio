@@ -2,13 +2,14 @@ import styled from 'styled-components';
 
 interface StartButtonProps {
   text: string;
+  textColor: string;
   handleClick: () => void;
 }
 
-const StartButton = ({text, handleClick}: StartButtonProps) => {
+const StartButton = ({text, textColor, handleClick}: StartButtonProps) => {
   return (
     <StyledWrapper>
-      <button className="btn-23" onClick={handleClick}>
+      <button className={`btn-23 ${textColor}`} onClick={handleClick}>
         <span className="text">{text}</span>
         <span aria-hidden className="marquee">{text}</span>
       </button>
@@ -31,7 +32,6 @@ const StyledWrapper = styled.div`
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: button;
     background-color: #030712;
-    color: #c76f0a;
     cursor: pointer;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
       Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,

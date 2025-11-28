@@ -1,5 +1,5 @@
 .projectsContainer{
   scrollbar-width: thin;
-  scrollbar-color: var(--details2) var(--first-dark);
+  scrollbar-color: rgb(99, 99, 99) rgba(0, 0, 0, 0.082);
   margin: 0;
 }
