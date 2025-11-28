@@ -52,10 +52,6 @@ body{
   align-items: center;
 }
 
-.separator{
-  border: 1px solid var(--details2)
-}
-
 @theme{
   --color-first-dark: #030712;
   --color-second-dark: #36363633;

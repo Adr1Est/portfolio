@@ -36,7 +36,7 @@ function Portfolio(){
     >
       <ThemeToggle/>
       <Me/>
-      <hr className='w-full mt-3 mb-3 rounded-2xl separator'/>
+      <hr className='w-full mt-3 mb-3 rounded-2xl border-1 border-details2 dark:border-details1'/>
       <Outlet/>
     </motion.div>
   )
