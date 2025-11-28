@@ -20,7 +20,7 @@ function AboutMe(){
           tiltEnable={false}
           glareEnable={true}
           glareMaxOpacity={0.1}
-          glareColor="white"
+          glareColor="black"
           glarePosition="all"
           glareBorderRadius="15px"
         >
