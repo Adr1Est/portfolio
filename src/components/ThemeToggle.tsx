@@ -12,6 +12,12 @@ function ThemeToggle(){
     localStorage.setItem('theme', newTheme);
   }
 
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme") || 'dark';
+    setTheme(storedTheme);
+    document.documentElement.classList.toggle('dark', storedTheme === 'dark')
+  }, [])
+
   return(
     <button 
       className={`${styles.themeButton} rounded-full p-2 absolute right-1 top-1 cursor-pointer hover:text-details1`}
