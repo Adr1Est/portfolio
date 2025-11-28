@@ -1,7 +1,3 @@
-.photoBox{
-  border: 3px solid var(--white);
-}
-
 .socialIcons{
   &&:hover{
     color: var(--details2);

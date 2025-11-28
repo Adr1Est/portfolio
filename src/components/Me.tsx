@@ -12,7 +12,7 @@ function Me(){
   
   return (
     <div className='flex flex-col md:flex-row justify-center items-center gap-3'>
-      <div className={`w-30 md:w-50 aspect-square rounded-full overflow-hidden ${styles.photoBox}`}>
+      <div className={`w-30 md:w-50 aspect-square rounded-full overflow-hidden border-2 border-light-text dark:border-dark-text`}>
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start'>

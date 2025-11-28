@@ -32,7 +32,7 @@ function Portfolio(){
         duration: 0.4,
         scale: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
       }}
-      className={`flex flex-col justify-center items-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 ${styles.mainContainer} relative`}
+      className={`flex flex-col justify-center items-center gap-1 rounded-2xl w-full lg:w-200 md:w-150 p-3 text-light-text dark:text-dark-text  ${styles.mainContainer} relative`}
     >
       <ThemeToggle/>
       <Me/>
