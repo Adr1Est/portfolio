@@ -30,6 +30,7 @@ Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y h
 
 ## ⚙️ Actualizaciones
 
+- 2025/11/28 => Modo oscuro/claro
 - 2025/11/27 => Rutas absolutas
 - 2025/11/03 => Fondo animado
 - 2025/10/31 => Nuevo tema y utilización de css modules
