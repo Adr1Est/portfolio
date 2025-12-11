@@ -35,6 +35,14 @@ const projectsData: ProjectsArr = [
   },
   {
     id: 4,
+    name: 'AstroRadar API',
+    repo: 'https://github.com/Sofiaivars/astroradar-api',
+    url: 'https://github.com/Sofiaivars/astroradar-api',
+    img: '/api-screen.png',
+    tools: ['typescript', 'nodejs', 'express', 'prisma', 'jwt', 'postgres', 'supabase', 'docker', 'pnpm']
+  },
+  {
+    id: 5,
     name: 'Daily Bug',
     repo: 'https://github.com/Adr1Est/daily-insight',
     url: 'https://dailybug.adrianestevezs.dev/',
