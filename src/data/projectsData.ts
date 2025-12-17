@@ -43,6 +43,14 @@ const projectsData: ProjectsArr = [
   },
   {
     id: 5,
+    name: 'Shop Demo con Redux',
+    repo: 'https://github.com/Adr1Est/shop_redux',
+    url: 'https://github.com/Adr1Est/shop_redux',
+    img: '/shopdemo-screen.png',
+    tools: ['vite', 'react', 'redux', 'chakraui', 'pnpm']
+  },
+  {
+    id: 6,
     name: 'Daily Bug',
     repo: 'https://github.com/Adr1Est/daily-insight',
     url: 'https://dailybug.adrianestevezs.dev/',
