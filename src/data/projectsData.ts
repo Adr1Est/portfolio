@@ -45,7 +45,7 @@ const projectsData: ProjectsArr = [
     id: 5,
     name: 'Shop Demo con Redux',
     repo: 'https://github.com/Adr1Est/shop_redux',
-    url: 'https://github.com/Adr1Est/shop_redux',
+    url: 'https://shopdemo-react.netlify.app/',
     img: '/shopdemo-screen.png',
     tools: ['vite', 'react', 'redux', 'chakraui', 'pnpm']
   },
