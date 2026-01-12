@@ -16,7 +16,7 @@ function Curriculum(){
     >
       <BackButton to={'/portfolio'} stylesFromParent={"absolute left-5 top-3"}/>
       <iframe 
-        src="https://drive.google.com/file/d/1D3EBFQ6abq6PsZhmCNN6xlphH1WkPkOa/preview"
+        src="https://drive.google.com/file/d/175nP6Y3ZvW2UTgN0a8zuOEwa1-UJFjDZ/preview"
         width="100%"
         height="500px"
       ></iframe>
