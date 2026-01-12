@@ -26,14 +26,9 @@ function AboutMe(){
         >
           <div className={`flex flex-col gap-1 p-3 w-full ${styles.aboutmeBox}`}>
             <p className="text-justify">
-                <strong>Desarrollador Front-end</strong> con más de 2 años de experiencia en <b>React</b>,
-                <strong> TypeScript</strong> y <strong>Node.js</strong>.
-                Actualmente, amplío mis conocimientos en <strong>Python</strong>, <strong>Flask</strong>,
-                <strong> SQL</strong>,
-                <strong> IA</strong> y el uso de <strong>ORMs</strong> para fortalecer mi perfil Full Stack.
-                Apasionado por la <strong>innovación</strong> y el <strong>aprendizaje continuo</strong>, destaco por mi
-                <strong> curiosidad</strong>, <strong>autonomía</strong> y <strong>capacidad de adaptación</strong> a
-                nuevos entornos y tecnologías.
+                <strong>Desarrollador Front-end</strong> con más de 2 años de experiencia en aplicaciones web modernas.<br/>
+                Especializado en <strong>React/Next.js</strong> y <strong>TypeScript</strong>, con conocimientos <strong>Back-end</strong> en <strong>Node.js</strong> y <strong>Flask</strong>.<br/>
+                Perfil <strong>autodidacta</strong>, <strong>adaptable</strong> y orientado al <strong>aprendizaje continuo</strong> en entornos tecnológicos cambiantes.
             </p>
           </div>
         </Tilt>
