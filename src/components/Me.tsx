@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router'
 function Me(){
   const navigate = useNavigate()
   const iconStyles: { size: number, class: string } = {
-    size: 20,
+    size: 25,
     class: "cursor-pointer hover:text-details2 dark:hover:text-details1"
   }
   
@@ -15,10 +15,12 @@ function Me(){
       <div className={`w-30 md:w-50 aspect-square rounded-full overflow-hidden border-2 border-light-text dark:border-dark-text`}>
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
-      <div className='flex flex-col mb-1 items-center md:items-start'>
-        <p className='text-2xl'>Adrián Estévez Salamanca</p>
-        <p className='text-xl'>Desarrollador Front-end</p>
-        <div className='flex flex-row gap-1 mt-1'>
+      <div className='flex flex-col mb-1 items-center md:items-start gap-3'>
+        <div>
+          <p className='text-2xl'>Adrián Estévez Salamanca</p>
+          <p className='text-xl'>Desarrollador Front-end</p>
+        </div>
+        <div className='flex flex-row gap-2 mt-1'>
           <a href="https://github.com/Adr1Est" target="_blank" rel="noopener noreferrer" title="github">
             <Github size={iconStyles.size} className={iconStyles.class}/>
           </a>
