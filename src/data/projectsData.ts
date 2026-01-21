@@ -57,6 +57,14 @@ const projectsData: ProjectsArr = [
     img: '/dailybug-screen.png',
     tools: ['nextjs', 'typescript', 'css', 'tailwind', 'prisma', 'supabase']
   },
+  {
+    id: 7,
+    name: 'ToDo List | React Native',
+    repo: 'https://github.com/Adr1Est/todo-react-native',
+    url: 'https://github.com/Adr1Est/todo-react-native',
+    img: '/todolistreactnative-screen.png',
+    tools: ['reactnative', 'expo', 'zustand']
+  },
 ];
 
 export { projectsData };
