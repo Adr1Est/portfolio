@@ -12,7 +12,7 @@ function Projects(){
     <>
       <BackButton to={"/portfolio"} stylesFromParent={"flex w-full"}/>
       <motion.div 
-        className={`flex flex-col md:flex-row items-center gap-3 m-7 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden ${styles.projectsContainer}`}
+        className={`flex flex-col md:flex-row items-center gap-3 w-full overflow-x-hidden md:overflow-x-auto overflow-y-auto md:overflow-y-hidden ${styles.projectsContainer}`}
         initial={{ height: 0 }}
         animate={{ height: 300 }}
         transition={{
