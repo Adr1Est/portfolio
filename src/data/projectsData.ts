@@ -65,6 +65,14 @@ const projectsData: ProjectsArr = [
     img: '/todolistreactnative-screen.png',
     tools: ['reactnative', 'expo', 'zustand']
   },
+  {
+    id: 8,
+    name: 'Weather Card | Lit',
+    repo: 'https://github.com/Adr1Est/weather-card-lit',
+    url: 'https://minimalist-weathercard.netlify.app/',
+    img: '/weathercard-screen.png',
+    tools: ['pnpm', 'vite', 'lit', 'api']
+  },
 ];
 
 export { projectsData };
