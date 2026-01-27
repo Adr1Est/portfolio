@@ -5,7 +5,7 @@ interface ThemeStore {
   toggleTheme: () => void;
 }
 
-export const useThemeStore = create<ThemeStore>((set, get, store) => ({
+export const useThemeStore = create<ThemeStore>((set) => ({
   theme: 'dark',
   toggleTheme: () => set((state) => ({
     theme: state.theme === "dark" ? 'light' : 'dark'
