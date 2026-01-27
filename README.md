@@ -15,6 +15,7 @@ Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso
 - **styled-components**: estilos CSS-in-JS.
 - **react-fast-marquee**: animación de tipo carrusel.
 - **react-parallax-tilt**: efecto paralax y glare en elementos.
+- **zustand**: gestión de estado global.
 
 ### Deploy
 
