@@ -30,6 +30,7 @@ Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y h
 
 ## ⚙️ Actualizaciones
 
+- 2026/01/27 => Estado global con Zustand
 - 2025/11/28 => Modo oscuro/claro
 - 2025/11/27 => Rutas absolutas
 - 2025/11/03 => Fondo animado
