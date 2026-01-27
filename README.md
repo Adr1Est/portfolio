@@ -6,7 +6,7 @@ Es un repositorio en constante desarrollo ya que la idea es reflejar mi progreso
 
 ## 🔧 Herramientas del proyecto
 
-![Project Tools](https://go-skill-icons.vercel.app/api/icons?i=vite,react,typescript,css,nodejs,npm,tailwind,framer,git,github)
+![Project Tools](https://go-skill-icons.vercel.app/api/icons?i=vite,react,typescript,css,nodejs,npm,tailwind,framer,zustand,git,github)
 
 ### Otras dependencias
 
