@@ -7,11 +7,6 @@ import { useThemeStore } from '@/store'
 
 function Welcome(){
   const navigate = useNavigate()
-  const theme = useThemeStore((state) => state.theme)
-
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark')
-  }, [theme])
 
   return(
     <div className='flex flex-col gap-3 justify-center items-center text-light-text dark:text-dark-text'>
