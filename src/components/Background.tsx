@@ -1,14 +1,10 @@
+import { useThemeStore } from '@/store'
 import styles from '@components/Background.module.css'
 import { ShootingStars } from '@components/ui/shadcn-io/shooting-stars'
-import { useState, useEffect } from 'react'
 
 function Background() {
-  const [theme, setTheme] = useState('dark')
+  const theme = useThemeStore((state) => state.theme)
 
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") || 'dark'
-    setTheme(storedTheme)
-  }, [])
   return(
     <div className={`${styles.mainBackground} bg-first-light dark:bg-first-dark`}>
       {/* Background with stars */}
