@@ -3,13 +3,14 @@ import { useNavigate } from 'react-router'
 import Typewriter from '@components/Typewriter'
 import StartButton from '@components/StartButton'
 import { useState, useEffect } from 'react'
+import { useThemeStore } from '@/store'
 
 function Welcome(){
   const navigate = useNavigate()
+  const theme = useThemeStore((state) => state.theme)
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") || 'dark';
-    document.documentElement.classList.toggle('dark', storedTheme === 'dark')
+    document.documentElement.classList.toggle('dark', theme === 'dark')
   }, [])
 
   return(
