@@ -2,8 +2,6 @@ import styles from '@pages/Welcome.module.css'
 import { useNavigate } from 'react-router'
 import Typewriter from '@components/Typewriter'
 import StartButton from '@components/StartButton'
-import { useEffect } from 'react'
-import { useThemeStore } from '@/store'
 
 function Welcome(){
   const navigate = useNavigate()
