@@ -1,8 +1,14 @@
 .aboutmeBox{
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(137, 136, 136, 0);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(11.8px);
-  -webkit-backdrop-filter: blur(11.8px);
-  border: 1px solid rgba(255, 255, 255, 0.11);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(137, 136, 136, 0.07);
+}
+
+.mainStackScroll{
+  scrollbar-width: thin;
+  scrollbar-color: rgb(99, 99, 99) rgba(0, 0, 0, 0.082);
+  margin: 0;
 }

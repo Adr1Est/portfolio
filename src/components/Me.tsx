@@ -2,6 +2,7 @@ import styles from '@components/Me.module.css'
 import me from '@/assets/processed_image.png'
 import { FileUser, Github, Linkedin } from 'lucide-react'
 import { useNavigate } from 'react-router'
+import OTWStatus from './OTWStatus'
 
 function Me(){
   const navigate = useNavigate()
@@ -16,6 +17,7 @@ function Me(){
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start gap-3'>
+        <OTWStatus status="online"/>
         <div>
           <p className='text-2xl'>Adrián Estévez Salamanca</p>
           <p className='text-xl'>Desarrollador Front-end</p>

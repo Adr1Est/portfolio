@@ -8,9 +8,11 @@ function App() {
   useThemeClass()
   return(
     <>
-      <Background/>
-      <Outlet/>
-      <Footer/>
+      <div className='min-h-screen flex flex-col items-center justify-center'>
+        <Background/>
+        <Outlet/>
+        <Footer/>
+      </div>
     </>
   )
 }
