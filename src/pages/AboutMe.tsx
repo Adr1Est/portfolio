@@ -2,7 +2,7 @@ import styles from '@pages/AboutMe.module.css'
 import { motion } from "motion/react"
 import BackButton from "@components/BackButton"
 import Tilt from 'react-parallax-tilt'
-import TechCard from '@/components/TechCard'
+import TechCard from '@components/TechCard'
 
 function AboutMe(){
   return (
@@ -35,9 +35,9 @@ function AboutMe(){
 
         <hr className='w-full mt-3 mb-3 rounded-2xl border border-details2 dark:border-details1'/>
 
-        <div>
-          <h2 className='text-xl mb-2'>Stack principal</h2>
-          <div className='flex flex-row w-full rounded-2xl gap-1 lg:overflow-x-auto h-30'>
+        <div className='flex flex-col w-full'>
+          <h2 className='text-xl mb-2 w-full'>Stack principal</h2>
+          <div className={`flex w-full overflow-x-auto pb-2 gap-1 ${styles.mainStackScroll}`}>
 
             <TechCard logo="typescript" title="TypeScript" level={90}/> 
             <TechCard logo="react" title="React.js" level={90}/> 

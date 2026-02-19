@@ -1,4 +1,4 @@
-import styles from '@/components/TechCard.module.css'
+import styles from '@components/TechCard.module.css'
 
 interface Props{
   logo: string;
@@ -17,7 +17,10 @@ export default function TechCard({ logo, title, level }: Props){
       </div>
 
       <div className={`${styles.levelContainer} mt-2`}>
-        <div className={`bg-details2 dark:bg-details1 text-white dark:text-first-dark ${styles.levelBar}`} style={{width: `${level}%`}}>
+        <div 
+          className={`bg-details2 dark:bg-details1 text-white dark:text-first-dark ${styles.levelBar}`} 
+          style={{width: `${level}%`}}
+        >
           {level}%
         </div>
       </div>
