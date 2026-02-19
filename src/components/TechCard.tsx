@@ -8,8 +8,8 @@ interface Props{
 
 export default function TechCard({ logo, title, level }: Props){
   return(
-    <div className={`${styles.techCardMain}`}>
-      <div className='flex flex-row items-center gap-1'>
+    <div className={`${styles.techCardMain} flex flex-col items-center justify-center shrink-0`}>
+      <div className='flex flex-row items-center gap-1 self-start'>
         <div>
           <img src={`https://go-skill-icons.vercel.app/api/icons?i=${logo}`} alt={`logo de ${logo}`} />
         </div>

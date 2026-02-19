@@ -37,7 +37,7 @@ function AboutMe(){
 
         <div>
           <h2 className='text-xl mb-2'>Stack principal</h2>
-          <div className='flex flex-row justify-center w-full rounded-2xl gap-1 flex-wrap overflow-y-auto h-30'>
+          <div className='flex flex-row w-full rounded-2xl gap-1 lg:overflow-x-auto h-30'>
 
             <TechCard logo="typescript" title="TypeScript" level={90}/> 
             <TechCard logo="react" title="React.js" level={90}/> 
