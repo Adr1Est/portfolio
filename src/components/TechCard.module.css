@@ -1,0 +1,26 @@
+.techCardMain{
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.5rem;
+  width: 150px;
+}
+
+.levelContainer{
+  background-color: #ffffff0f;
+  width: 100%;
+  height: 15px;
+  border-radius: 12px;
+}
+.levelBar{
+  height: 100%;
+  border-radius: 12px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
