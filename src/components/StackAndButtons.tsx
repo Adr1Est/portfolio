@@ -40,6 +40,12 @@ function StackAndButtons(){
           >
             Sobre mí
           </button>
+          <button 
+            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            onClick={() => navigate("/portfolio/contact")}
+          >
+            Contáctame
+          </button>
         </div>
       </motion.div>
     </>

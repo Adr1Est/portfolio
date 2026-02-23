@@ -6,6 +6,7 @@ import Curriculum from '@pages/Curriculum'
 import StackAndButtons from '@components/StackAndButtons'
 import Projects from '@pages/Projects'
 import AboutMe from '@pages/AboutMe'
+import Contact from '@pages/Contact'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
           { path: "cv", Component: Curriculum },
           { path: "projects", Component: Projects },
           { path: "aboutme", Component: AboutMe },
+          { path: "contact", Component: Contact },
         ]
       },
     ]
