@@ -1,8 +1,9 @@
 interface Props {
   text: string;
+  handleClick: () => void;
 }
 
-export default function FormButton({ text }: Props){
+export default function FormButton({ text, handleClick }: Props){
   return (
     <button 
       className="
@@ -19,6 +20,7 @@ export default function FormButton({ text }: Props){
         cursor-pointer
         col-span-2
       "
+      onClick={handleClick}
     >
       {text}
     </button>

@@ -1,7 +1,7 @@
 import styles from '@components/ContactForm.module.css'
 import ContactFormInput from '@components/ContactFormInput'
 import FormButton from '@components/FormButton'
-import { ChangeEvent, useEffect, useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 
 export default function ContactForm(){
   const [formData, setFormData] = useState({
@@ -19,7 +19,7 @@ export default function ContactForm(){
       [name]: value
     }))
   }
-  
+
   return(
     <div className='w-full grid grid-cols-2 gap-1'>
       
@@ -73,7 +73,7 @@ export default function ContactForm(){
         onChange={handleChange}
       ></textarea>
 
-      <FormButton text='Enviar'/>
+      <FormButton text='Enviar' handleClick={() => console.log(formData)}/>
 
     </div>
   )
