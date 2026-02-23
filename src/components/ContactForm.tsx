@@ -1,5 +1,6 @@
 import styles from '@components/ContactForm.module.css'
 import ContactFormInput from '@components/ContactFormInput'
+import FormButton from '@components/FormButton'
 
 export default function ContactForm(){
   return(
@@ -44,6 +45,8 @@ export default function ContactForm(){
         className='col-span-2 bg-input rounded-2xl p-1' 
         id='message_field'
       ></textarea>
+
+      <FormButton text='Enviar'/>
 
     </div>
   )
