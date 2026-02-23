@@ -2,6 +2,7 @@ import styles from '@components/ContactForm.module.css'
 import ContactFormInput from '@components/ContactFormInput'
 import FormButton from '@components/FormButton'
 import { ChangeEvent, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 export default function ContactForm(){
   const [formData, setFormData] = useState({
