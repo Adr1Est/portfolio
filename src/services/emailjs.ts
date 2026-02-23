@@ -20,9 +20,17 @@ const emailJsInit = () => {
   })
 }
 
+const validateEmail = (email: string) => {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return regex.test(email)
+}
+
 const sendEmail = async ({fullName, subject, email, phone, message}: EmailData) => {
   try {
     if(!fullName || !subject || !email || !message) return alert("Rellena los campos obligatorios")
+    
+    if(!validateEmail(email)) return alert("El email no es válido")
+
     const response = await emailjs.send(
       envs.SERVICE_ID,
       envs.TEMPLATE_ID,
