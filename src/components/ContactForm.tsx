@@ -44,7 +44,7 @@ export default function ContactForm(){
         name="fullName" 
         placeholder='John Doe' 
         id="fullname_field" 
-        label='Nombre completo'
+        label='Nombre completo *'
         value={formData.fullName}
         onChange={handleChange}
       />
@@ -54,7 +54,7 @@ export default function ContactForm(){
         name="subject" 
         placeholder='Oferta laboral' 
         id="subject_field" 
-        label='Asunto'
+        label='Asunto / Empresa * '
         value={formData.subject}
         onChange={handleChange}
       />
@@ -64,7 +64,7 @@ export default function ContactForm(){
         name="email" 
         placeholder='johndoe@gmail.com' 
         id="email_field" 
-        label='Email'
+        label='Email *'
         value={formData.email}
         onChange={handleChange}
       />
@@ -79,7 +79,7 @@ export default function ContactForm(){
         onChange={handleChange}
       />
 
-      <label htmlFor="message_field">Mensaje</label>
+      <label htmlFor="message_field">Mensaje *</label>
       <textarea 
         name="message" 
         placeholder='Escribe un mensaje...' 
