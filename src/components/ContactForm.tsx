@@ -1,8 +1,8 @@
+import { emailJsInit, sendEmail } from '@/services/emailjs'
 import styles from '@components/ContactForm.module.css'
 import ContactFormInput from '@components/ContactFormInput'
 import FormButton from '@components/FormButton'
-import { ChangeEvent, useState } from 'react'
-import emailjs from '@emailjs/browser'
+import { ChangeEvent, useEffect, useState } from 'react'
 
 export default function ContactForm(){
   const [formData, setFormData] = useState({
@@ -20,6 +20,21 @@ export default function ContactForm(){
       [name]: value
     }))
   }
+
+  const handleClick = async () => {
+    await sendEmail(formData)
+    setFormData({
+      fullName: "",
+      subject: "",
+      email: "",
+      phone: "",
+      message: "",
+    })
+  }
+
+  useEffect(() => {
+    emailJsInit()
+  }, [])
 
   return(
     <div className='w-full grid grid-cols-2 gap-1'>
@@ -74,7 +89,7 @@ export default function ContactForm(){
         onChange={handleChange}
       ></textarea>
 
-      <FormButton text='Enviar' handleClick={() => console.log(formData)}/>
+      <FormButton text='Enviar' handleClick={handleClick}/>
 
     </div>
   )
