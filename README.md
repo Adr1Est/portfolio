@@ -31,6 +31,7 @@ Este portfolio se actualiza continuamente para reflejar mis nuevos proyectos y h
 
 ## ⚙️ Actualizaciones
 
+- 2026/02/23 => Formulario de contacto. EmailJS.
 - 2026/02/19 => Información del stack principal en AboutMe y OpenToWork Status
 - 2026/01/27 => Estado global con Zustand
 - 2025/11/28 => Modo oscuro/claro
