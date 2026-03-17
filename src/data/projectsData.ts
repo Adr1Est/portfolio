@@ -6,9 +6,8 @@ export interface Project {
   img: string;
   tools: string[];
 }
-type ProjectsArr = Project[]
 
-const projectsData: ProjectsArr = [
+const projectsData: Project[] = [
   {
     id: 1,
     name: 'Tic Tac Toe',
