@@ -73,6 +73,14 @@ const projectsData: ProjectsArr = [
     img: '/weathercard-screen.png',
     tools: ['pnpm', 'vite', 'lit', 'api']
   },
+  {
+    id: 9,
+    name: 'Poke Info',
+    repo: 'https://github.com/Adr1Est/poke-info',
+    url: 'https://poke-info-eta.vercel.app/',
+    img: '/pokeinfo-screen.png',
+    tools: ['pnpm', 'next', 'react', 'zustand', 'tanstack', 'api', 'jest']
+  },
 ];
 
 export { projectsData };
