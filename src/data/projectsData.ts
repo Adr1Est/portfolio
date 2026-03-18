@@ -78,7 +78,7 @@ const projectsData: Project[] = [
     repo: 'https://github.com/Adr1Est/poke-info',
     url: 'https://poke-info-eta.vercel.app/',
     img: '/pokeinfo-screen.png',
-    tools: ['pnpm', 'next', 'react', 'zustand', 'tanstack', 'api', 'jest']
+    tools: ['pnpm', 'next', 'react', 'zustand', 'tanstack', 'api', 'jest', 'docker']
   },
 ];
 
