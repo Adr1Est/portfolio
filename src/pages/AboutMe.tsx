@@ -27,9 +27,10 @@ function AboutMe(){
           className={`flex flex-col gap-1 p-3 w-full ${styles.aboutmeBox}`}
         >
           <p className="text-justify w-full">
-            <strong>Desarrollador Front-end</strong> con más de 2 años de experiencia en aplicaciones web modernas.<br/>
-            Especializado en <strong>React</strong>, <strong>Next.js</strong> y <strong>TypeScript</strong>, con conocimientos <strong>Back-end</strong> en <strong>Node.js</strong> y <strong>Flask</strong>.<br/>
-            Perfil <strong>autodidacta</strong>, <strong>adaptable</strong> y orientado al <strong>aprendizaje continuo</strong> en entornos tecnológicos cambiantes.
+            Desarrollador Full-Stack con <strong>más de 2 años de experiencia</strong> en el desarrollo de aplicaciones 
+            utilizando <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong> y <strong>Node.js</strong>.
+            He participado activamente en el desarrollo de aplicaciones web complejas, contribuyendo a la <strong>optimización del tiempo de carga en un 30%</strong> y 
+            a la mejora de la eficiencia del código mediante la implementación de <strong>buenas prácticas</strong> y <strong>código limpio y escalable</strong>.
           </p>
         </Tilt>
 
@@ -41,12 +42,12 @@ function AboutMe(){
 
             <TechCard logo="typescript" title="TypeScript" level={90}/> 
             <TechCard logo="react" title="React.js" level={90}/> 
-            <TechCard logo="next" title="Next.js" level={70}/> 
+            <TechCard logo="next" title="Next.js" level={80}/> 
             <TechCard logo="tailwind" title="Tailwind" level={90}/> 
             <TechCard logo="css" title="CSS" level={90}/> 
             <TechCard logo="scss" title="SASS" level={80}/> 
-            <TechCard logo="zustand" title="Zustand" level={60}/> 
-            <TechCard logo="tanstack" title="Tanstack Query" level={60}/> 
+            <TechCard logo="zustand" title="Zustand" level={80}/> 
+            <TechCard logo="tanstack" title="Tanstack Query" level={80}/> 
             <TechCard logo="nodejs" title="Node.js" level={80}/> 
             <TechCard logo="express" title="Express" level={70}/> 
             <TechCard logo="postgresql" title="PostgreSQL" level={80}/> 
