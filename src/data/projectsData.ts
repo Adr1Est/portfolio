@@ -80,6 +80,22 @@ const projectsData: Project[] = [
     img: '/pokeinfo-screen.png',
     tools: ['pnpm', 'next', 'react', 'zustand', 'tanstack', 'api', 'jest', 'docker']
   },
+  {
+    id: 10,
+    name: 'Better Components API REST',
+    repo: 'https://github.com/Adr1Est/better-components-api',
+    url: 'https://better-components-api.vercel.app/health',
+    img: '/api-screen.png',
+    tools: ['pnpm', 'nodejs', 'express', 'typescript', 'prisma', 'postgresql', 'supabase', 'docker', 'jwt', 'gemini']
+  },
+  {
+    id: 11,
+    name: 'Better Components',
+    repo: 'https://github.com/Adr1Est/better-components',
+    url: 'https://bettercomponents.adrianestevezs.dev/',
+    img: '/bettercomponents-screen.png',
+    tools: ['pnpm', 'react', 'reactrouter', 'vite', 'typescript', 'tailwind', 'zustand', 'tanstack', 'axios']
+  },
 ];
 
 export { projectsData };
