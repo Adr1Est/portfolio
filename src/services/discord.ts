@@ -1,4 +1,4 @@
-const sendDiscordMessage = async (message: string) => {
+export const sendDiscordMessage = async (message: string) => {
   const response = await fetch("/api/discord", {
     method: "POST",
     headers: {
