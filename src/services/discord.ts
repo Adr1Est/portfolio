@@ -1,5 +1,5 @@
 export const sendDiscordMessage = async (message: string) => {
-  const response = await fetch("/api/discord", {
+  const response = await fetch("/api/notifyDiscord", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
