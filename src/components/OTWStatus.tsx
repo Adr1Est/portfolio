@@ -6,7 +6,7 @@ interface Props{
 
 export default function OTWStatus({status}: Props){
   return (
-    <Status status={status}>
+    <Status status={status} className="hover:scale-110 transition-all ease-out duration-500" >
       <StatusIndicator />
       <StatusLabel>
         {

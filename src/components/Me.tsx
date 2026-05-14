@@ -8,7 +8,7 @@ function Me(){
   const navigate = useNavigate()
   const iconStyles: { size: number, class: string } = {
     size: 25,
-    class: "cursor-pointer hover:text-details2 dark:hover:text-details1"
+    class: "cursor-pointer hover:text-details2 dark:hover:text-details1 hover:scale-110 transition-all ease-out duration-500"
   }
   
   return (
@@ -17,7 +17,7 @@ function Me(){
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start gap-3'>
-        <OTWStatus status="online"/>
+        <OTWStatus status="online" />
         <div>
           <p className='text-2xl'>Adrián Estévez Salamanca</p>
           <p className='text-xl'>Desarrollador Full-Stack</p>
