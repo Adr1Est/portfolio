@@ -29,19 +29,64 @@ function StackAndButtons(){
         <hr className='mt-3 mb-3 rounded-2xl border border-details2 dark:border-details1'/>
         <div className='flex flex-row gap-3 justify-center items-center'>
           <button 
-            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            className={`
+              rounded-full 
+              p-2 
+              ${styles.portfolioButtons} 
+              border-2 
+              border-light-text 
+              dark:border-dark-text 
+              hover:border-details2 
+              dark:hover:border-details1
+              hover:text-details2 
+              dark:hover:text-details1
+              hover:scale-110
+              transition-all
+              ease-out
+              duration-500
+            `} 
             onClick={() => navigate("/portfolio/projects")}
           >
             Proyectos
           </button>
           <button 
-            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            className={`
+              rounded-full 
+              p-2 
+              ${styles.portfolioButtons} 
+              border-2 
+              border-light-text 
+              dark:border-dark-text 
+              hover:border-details2 
+              dark:hover:border-details1
+              hover:text-details2 
+              dark:hover:text-details1
+              hover:scale-110
+              transition-all
+              ease-out
+              duration-500
+            `}  
             onClick={() => navigate("/portfolio/aboutme")}
           >
             Sobre mí
           </button>
           <button 
-            className={`rounded-full p-2 ${styles.portfolioButtons} border-2 border-light-text dark:border-dark-text hover:border-details2 dark:hover:border-details1 hover:text-details2 dark:hover:text-details1`} 
+            className={`
+              rounded-full 
+              p-2 
+              ${styles.portfolioButtons} 
+              border-2 
+              border-light-text 
+              dark:border-dark-text 
+              hover:border-details2 
+              dark:hover:border-details1
+              hover:text-details2 
+              dark:hover:text-details1
+              hover:scale-110
+              transition-all
+              ease-out
+              duration-500
+            `}  
             onClick={() => navigate("/portfolio/contact")}
           >
             Contáctame
