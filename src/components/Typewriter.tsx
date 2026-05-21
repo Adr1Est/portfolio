@@ -8,7 +8,7 @@ interface TypewriterProps {
 function Typewriter({text, speed}: TypewriterProps){
   const displayText = useTypewriter(text, speed)
 
-  return <p>{displayText}</p>
+  return displayText
 }
 
 export default Typewriter
