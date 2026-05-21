@@ -5,6 +5,7 @@ import Footer from '@components/Footer'
 import { useThemeClass } from '@/hooks/useThemeClass'
 import { useEffect } from 'react'
 import { sendDiscordMessage } from '@/services/discord'
+import MetaTags from '@components/MetaTags'
 
 function App() {
   useThemeClass()
@@ -17,6 +18,8 @@ function App() {
   }, [])
   return(
     <>
+      <MetaTags />
+
       <div className='min-h-screen flex flex-col items-center justify-center'>
         <Background/>
         <Outlet/>
