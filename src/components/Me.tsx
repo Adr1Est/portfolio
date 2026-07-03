@@ -17,7 +17,7 @@ function Me(){
         <img src={me} alt="adrian portfolio image" className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col mb-1 items-center md:items-start gap-3'>
-        <OTWStatus status="online" />
+        <OTWStatus status="offline" />
         <div>
           <p className='text-2xl'>Adrián Estévez Salamanca</p>
           <p className='text-xl'>Desarrollador Full-Stack</p>
